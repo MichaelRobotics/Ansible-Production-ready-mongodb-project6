@@ -19,14 +19,14 @@ mongos_list:
   - name: task1
     mongos_port: 26000
 
-shard_node1_ip: 172.20.7.141
-shard_node2_ip: 172.20.8.200
-shard_node3_ip: 172.20.9.174
-csrs_node1_ip: 172.20.7.104
-csrs_node2_ip: 172.20.8.126
-csrs_node3_ip: 172.20.9.7
-mongos_node1_ip: 172.20.7.200
-mongos_node2_ip: 172.20.9.229
+shard_node1_ip: 172.20.7.128
+shard_node2_ip: 172.20.8.100
+shard_node3_ip: 172.20.9.147
+csrs_node1_ip: 172.20.7.101
+csrs_node2_ip: 172.20.8.53
+csrs_node3_ip: 172.20.9.85
+mongos_node1_ip: 172.20.7.158
+mongos_node2_ip: 172.20.9.138
 
 
 username: "{{lookup('env','username') }}"
